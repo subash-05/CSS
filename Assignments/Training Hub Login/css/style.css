@@ -1,0 +1,89 @@
+body{
+    font-family: "Roboto", sans-serif;
+    background-image: linear-gradient(to right, rgb(209, 212, 217), rgb(32, 75, 139));
+}
+
+.content{
+    padding: 20px;
+    background-color: white;
+    position: relative;
+    top: 25%;
+    left: 26%;
+    text-align: center;
+    width: 24%;
+    height: 40%;
+}
+
+.heading{
+    font-size: 3vh;
+    line-height: 1rem;
+    color: rgb(32, 75, 139);
+}
+
+.para{
+    color: gray;
+    line-height: 2rem;
+}
+
+.login{
+    padding: 20px;
+    font-size: 1rem;
+    background-color: rgb(32, 75, 139);
+    position: relative;
+    bottom: 23.1%;
+    box-shadow: 0 0 50px 20px rgba(0, 0, 0, 0.229);
+    left: 52%;
+    width: 20%;
+    height: 45%;
+    text-align: left;
+    color: rgb(221, 236, 255);
+    padding-left: 4rem;
+}
+.mail, .pass
+{
+    background-color: rgb(32, 75, 139);
+    padding: .5rem;
+    border-style: solid;
+    border-color: rgba(255, 255, 255, 0.581);
+    border-radius: 3px;
+    width: 16rem;
+    margin-top: .5rem;
+    margin-bottom: 1rem;
+}
+::placeholder{
+    color: rgba(221, 236, 255, 0.493);
+}
+.img{
+    width: 1.2rem;
+    display: inline;
+    margin-right: 3px;
+}
+
+.pass
+{
+    background-image: url(../images/icon.png);
+    background-size: 20px;
+    border-width: .15em;
+    background-position: 14rem;
+    color: whitesmoke;
+    background-repeat: no-repeat;
+}
+.pass:focus{
+    border-color: red;
+}
+.button, .button2{
+    border-style: solid;
+    border-color: rgba(255, 255, 255, 0.581);
+    border-radius: 3px;
+    width: 16rem;
+    font-size: .95rem;
+    background-color: rgb(32, 75, 139);
+    padding: .5rem;
+    color: rgb(221, 236, 255);
+    margin-bottom: 1.5rem;
+}
+.button:hover{
+    background-color: rgb(75, 97, 129);
+    cursor: pointer;
+    transition: .5s;
+}

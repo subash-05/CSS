@@ -1,0 +1,221 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container
+{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.nav
+{
+    background-color: #fff;
+    font-weight: bold;
+    height: 40%;
+}
+.logo
+{
+    width: 9%;
+    padding: 1rem;
+    margin-top: .5rem;
+    margin-left:12%;
+}
+.list
+{
+    color: #18294c;
+    margin: -3rem 28%;
+}
+.list li
+{
+    padding-left: 3rem;
+    display: inline;
+}
+.buttons
+{
+    padding: 1.3rem;
+    margin-left: 70%;
+}
+.demobutton, .trialbutton, .submit-button
+{
+    border-radius: .5rem;
+    font-weight: bold;
+    padding: .5rem;
+    margin-right: .5rem;
+}
+.demobutton
+{
+    border-style: solid;
+    border-color: #ff4800;
+    background-color: #fff;
+    color: #ff4800;
+}
+.trialbutton, .submit-button
+{
+    background-color: #ff4800;
+    border: none;
+    color: #fff;
+}
+
+.content
+{
+    background-color: #fff;
+    text-align: center;
+    color: #18294c;
+    height: 20rem;
+}
+.message
+{
+    font-size: 3.5rem;
+    padding-top: 5.5rem;
+}
+.para
+{
+    font-size: 1.2rem;
+    font-weight: bold;
+    padding: 1.3rem;
+    line-height: 2rem;
+}
+
+.contact
+{
+    text-align: left;
+    height: 57rem;
+    color: #18294c;
+    padding-left: 11rem;
+    padding-top: 7rem;
+    background-color: #eef5ff;
+}
+.details
+{
+    text-align: left;
+    padding: 2rem;
+    width: 38%;
+    border-style: solid;
+    border-width: .008rem;
+    border-color: #b6d4ff;
+    border-radius: 1.8rem;
+    line-height: 2.5rem;
+    background-color: #fff;
+}
+.support, .chat, .send, .locations div
+{
+    text-align: left;
+    margin-top: 2rem;
+    padding: 2rem;
+    width: 38%;
+    border-style: solid;
+    border-width: .008rem;
+    border-color: #b6d4ff;
+    border-radius: 1.8rem;
+    line-height: 2.5rem;
+    background-color: #fff;
+}
+.send
+{
+    width: 30%;
+    font-size: 1rem;
+    margin-top: -46.2rem;
+    margin-left: 50%;
+    box-shadow: .8rem .8rem #90b2e388;
+}
+.textbox
+{
+    padding: .7rem;
+    width: 90%;
+    border-color: rgb(201, 201, 201);
+    border-style: solid;
+    border-radius: .3rem;
+}
+.textarea
+{
+    padding: .7rem;
+    border-width: .1rem;
+    border-color: rgb(201, 201, 201);
+    border-style: solid;
+    border-radius: .3rem;
+}
+.web
+{
+    color: #d53c00;
+}
+.submit-button
+{
+    width: 97%;
+}
+.link
+{
+    text-decoration: none;
+}
+
+.locations
+{
+    background-image: url(../images/map.png);
+    background-repeat:no-repeat;
+    background-position: 8rem 4rem;
+    background-size: 80%;
+    background-attachment: scroll;
+}
+.photo
+{
+    width: 15rem;
+    height: 10rem;
+    border-radius: 1.8rem;
+}
+.locations h1
+{
+    text-align: center;
+    padding: 2rem;
+    font-size: 3rem;
+}
+.address, .addr
+{
+    font-size: small;
+    margin-left: 50%;
+    position: relative;
+    top: -11rem; 
+}
+#location2, #location4
+{
+    margin-left: 50%;
+    margin-top: -14rem;
+}
+#location1, #location3
+{
+    margin-left: 10%;
+}
+.locations div
+{
+    margin: 2rem;
+    padding: 1rem;
+    width: 35%;
+    height: 10rem;
+}
+
+.footer
+{
+    background-color: #b6d4ff;
+}
+.storeimg1
+{
+    width: 7rem;
+    position: relative;
+    left: 20rem;
+}
+.storeimg2
+{
+    width: 9rem;
+    position: relative;
+    left: 60rem;
+    bottom: 2rem;
+}
+.footer h2
+{
+    padding-left: 5rem;
+}
+.list2, list3
+{
+    list-style-type: none;
+    padding-left: 5rem;
+    padding-bottom: 5rem;
+}

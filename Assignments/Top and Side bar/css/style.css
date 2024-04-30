@@ -1,0 +1,115 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+.page{
+    font-family: "Open Sans", Helvetica, Arial, sans-serif;
+}
+
+.nav1{
+    padding: .5rem;
+    font-size: .8rem;
+    background-color: beige;
+}
+
+.navlist1{
+    list-style-type: none;
+    display: inline;
+    margin-left: 18rem;
+}
+
+
+
+.list1{
+    display: inline;
+    margin-left: 1rem;
+}
+
+.para{
+    display: inline;
+    margin-left: 12%;
+}
+.bolddesk{
+    background-color: rgb(229, 179, 99);
+    padding: .2rem;
+    border-radius: 9%;
+}
+.try{
+    color: brown;
+}
+
+.nav2{
+    padding: .2.8rem;
+    background-color: black;
+}
+.img{
+    width: 13%;
+    padding-left: 11%;
+    display: inline;
+}
+.navlist2{
+    list-style-type: none;
+    display: inline;
+    margin-left: 10rem;
+}
+.list2{
+    color: white;
+    display: inline;
+    font-size: .95rem;
+    margin-right: 2rem;
+    vertical-align: 1rem;
+}
+.book{
+    vertical-align: 1.2rem;
+    background-color: black;
+    border-width: 2px;
+    border-color: white;
+    color: white;
+    font-weight: bold;
+    padding: .7rem;
+    border-radius: .5em;
+}
+.free{
+    vertical-align: 1.2rem;
+    background-color: rgb(0, 140, 195);
+    color: white;
+    font-weight: bold;
+    margin-left: 2em;
+    padding: .7rem;
+    border-radius: .5em; 
+}
+.free:hover{
+    background-color: black;
+    transition: 1.5s;
+}
+
+.content{
+    text-align: center; 
+}
+.para1{
+    margin-top: 4%;
+    margin-bottom: 5rem;
+    line-height: 3.5rem;
+    font-size: 2.3rem;
+    font-weight: bold;
+}
+.download{
+    background-color: rgb(0, 140, 195);
+    color: white;
+    border: none;
+    font-weight: bold;
+    margin-left: 2em;
+    padding: .9rem;
+    border-radius: 5em; 
+}
+.demo{
+    background-color: white;
+    color: rgb(0, 140, 195);
+    font-weight: bold;
+    box-shadow: 0 8px 5px 1px rgb(225, 225, 225);
+    border-width: .05rem;
+    border-color: gray;
+    margin-left: 2em;
+    padding: .9rem;
+    border-radius: 5em; 
+}

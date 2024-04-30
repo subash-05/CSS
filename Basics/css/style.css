@@ -1,0 +1,52 @@
+.underline {
+    text-decoration: underline;
+}
+
+.overline {
+    text-decoration: overline;
+}
+
+.strike {
+    text-decoration: line-through;
+}
+
+.blink {
+    text-decoration: underline line-through;
+    COLOR: ReD;
+}
+
+.box{
+    border-width: 2px;
+    border-style: dotted;
+    border-color: crimson;
+}
+
+span{
+    border: 2px dashed blue;
+}
+
+div{
+    border: 1px solid black;
+    width: 100px;
+    height: 100px;
+    padding: 5px;
+    align-content: center;
+    margin: 10px auto;
+}
+
+#shadow{
+    box-shadow: 5px -8px 6px 4px gray;    /* horizontal - vertical - blur - spread - color */
+}
+
+[title]
+{
+    color: blue;
+}
+a[href^="http"]
+{
+    color: aliceblue;
+}
+a[target="_blank"]
+{
+    color: cadetblue;
+}
